@@ -23,23 +23,8 @@ bool([])
 bool({})
 
 class myclass():
-  def __len__(self):
+  def __len__():
     return 0
 
-myobj = myclass()
+myobj = myclass()self
 print(bool(myobj))
-
-def myFunction() :
-  return True
-
-print(myFunction())
-
-def myFunction() :
-  return True
-
-if myFunction():
-  print("YES!")
-else:
-  print("NO!")
-x = 200
-print(isinstance(x, int))
