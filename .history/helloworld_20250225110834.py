@@ -8,8 +8,8 @@ print(a)
 print(b)
 print(c)
 
-animals = ["lion", "tiger", "cat"]
-x, y, z = animals
+animals = ["apple", "banana", "cherry"]
+x, y, z = fruits
 print(x)
 print(y)
 print(z)

@@ -7,9 +7,3 @@ a = b = c = "Umar"
 print(a)
 print(b)
 print(c)
-
-animals = ["lion", "tiger", "cat"]
-x, y, z = animals
-print(x)
-print(y)
-print(z)
