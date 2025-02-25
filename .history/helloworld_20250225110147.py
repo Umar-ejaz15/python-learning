@@ -1,3 +1,3 @@
 a = "ali"
-A = "Ali"
+A = "ali"
 print(a)
