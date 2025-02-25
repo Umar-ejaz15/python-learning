@@ -7,7 +7,7 @@ print(type(z))
 
 a = float(x)
 b = complex(y)
-c = int(x)
+c = com(z)
 print(type(a))
 print(type(b))
 print(type(c))
