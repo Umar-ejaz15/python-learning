@@ -8,10 +8,9 @@
 
 # 2. Accept the gender from user and display msg accordingly
 
-# G = input("Enter your gender (M/F): ")
-# if G == "M" or G == "m":
-#     print("You are male")
-# elif G == "F" or G == "f":
-#     print("You are female")
-# else:
-#     print("please enter your gender correctly")
+G = input("Enter your gender (M/F): ")
+if G == "M":
+    print("You are male")
+elif G == "F":
+    print("You are female")
+    
