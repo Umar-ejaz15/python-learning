@@ -38,6 +38,4 @@
 # else:
 #     print(year, "is not a leap year")
 
-
-
-
+6. Accetpt 
