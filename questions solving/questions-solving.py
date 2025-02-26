@@ -32,11 +32,22 @@
 #     print(name, "is not eligible to vote")
 
 # 5. Accept a number and check if its leap year or not
+
 # year = int(input("Enter a year: "))
 # if year % 4 == 0 and year % 100 != 0 or year % 400 == 0:
 #     print(year, "is a leap year")
 # else:
 #     print(year, "is not a leap year")
+
+# 5. Accept a alphabet and tell either its vowel or not
+
+# alphabet = input("Enter an alphabet: ")
+# if alphabet in "aeiouAEIOU":
+#     print(alphabet, "is a vowel")
+# else:
+
+#     print(alphabet, "is not a vowel")
+
 
 
 
