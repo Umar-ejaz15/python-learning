@@ -31,20 +31,48 @@
 # print(lower + upper)
 # 3. Arrange string characters such that lowercase letters should come first
 
-text = "How Are You hOPe You Are Doing WElL"
-words = text.split()
-transformed_words = []
+# text = "How Are You hOPe You Are Doing WElL"
+# words = text.split()
+# transformed_words = []
 
-for i in words:
-    lower_chars = []
-    upper_chars = []
-    for j in i:
-        if j.islower():
-            lower_chars.append(j)
-        else:
-            upper_chars.append(j)
-    transformed_word = "".join(lower_chars + upper_chars)
-    transformed_words.append(transformed_word)
+# for i in words:
+#     lower_chars = []
+#     upper_chars = []
+#     for j in i:
+#         if j.islower():
+#             lower_chars.append(j)
+#         else:
+#             upper_chars.append(j)
+#     transformed_word = "".join(lower_chars + upper_chars)
+#     transformed_words.append(transformed_word)
 
-result = " ".join(transformed_words)
-print(result)
+# result = " ".join(transformed_words)
+# print(result)
+
+
+# 4. count and store  all letter digits and symbols in the givven string
+text = "P@#yn26at^&i5ve"
+letters = 0
+digits = 0
+symbols = 0
+Letters = ""
+Digits = ""
+Symbols = ""
+
+
+for i in text:
+    # print(i, end="")
+    if i.isalpha():
+        letters += 1
+        Letters = Letters + i
+
+    if i.isdigit():
+        digits += 1
+        Digits = Digits + i
+    if not i.isalpha() and not i.isdigit():
+        symbols += 1
+        Symbols = Symbols + i
+
+
+print(letters, digits, symbols)
+print(Letters, Digits, Symbols)
