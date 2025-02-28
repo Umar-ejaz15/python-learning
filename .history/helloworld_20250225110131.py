@@ -1,1 +1,0 @@
-a=alignment(obj_or_type)
