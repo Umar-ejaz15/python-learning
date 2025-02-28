@@ -171,3 +171,37 @@
 #     print("\nlist is paillindrome")
 # else:
 #     print("\nlist is not paillindrome")
+
+
+# 13. remove repetion of a given element from list
+# list = [1, 2, 2, 2, 2, 2, 222, 3, 3, 34, 4, 4, 4, 4, 4]
+
+# list2 = set(list)
+
+# print(list2)
+
+# 14. write a python script to merge two dictorinary
+# dict1 = {'a': 10, 'b': 8}
+# dict2 = {'d': 6, 'c': 4}
+# dict1.update(dict2)
+# print(dict1)
+
+# 15. sum of all items in dict
+# a = {'a': 100, 'b': 200, 'c': 300}
+
+# sum = 0
+# for i in a.values():
+#     sum += i
+# print(sum)
+
+# 16. find frequency of element in list
+list = [1, 2, 2, 2, 2, 2, 222, 3, 3, 34, 4, 4, 4, 4, 4]
+dict = {}
+
+for i in list:
+    if i in dict:
+        dict[i] += 1
+    else:
+        dict[i] = 1
+
+print(dict)
