@@ -1,4 +1,4 @@
-# 1. print string in reverse , its lenght , in upppeer case lower 
+# 1. print string in reverse , its lenght , in upppeer case lower
 # case and copy into another string
 
 # text = str("hello world")
@@ -80,6 +80,7 @@
 # print(Letters, Digits, Symbols)
 
 # 5. count vowvels from given strings and print the count
+
 # text = "I am a student of BCA"
 # print(text)
 # for i in text:
@@ -100,5 +101,3 @@
 
 # paillindrome("madam")
 # paillindrome("sir")
-
-
