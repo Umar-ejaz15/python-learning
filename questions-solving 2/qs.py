@@ -194,14 +194,25 @@
 #     sum += i
 # print(sum)
 
-# 16. find frequency of element in list
-list = [1, 2, 2, 2, 2, 2, 222, 3, 3, 34, 4, 4, 4, 4, 4]
-dict = {}
+# # 16. find frequency of element in list
+# list = [1, 2, 2, 2, 2, 2, 222, 3, 3, 34, 4, 4, 4, 4, 4]
+# dict = {}
 
-for i in list:
-    if i in dict:
-        dict[i] += 1
-    else:
-        dict[i] = 1
+# for i in list:
+#     if i in dict:
+#         dict[i] += 1
+#     else:
+#         dict[i] = 1
 
-print(dict)
+# print(dict)
+
+# 17. compare two dict and add values of repasting keys 
+# dict1 = {'a': 100, 'b': 200, 'c': 300}
+# dict2 = {'a': 300, 'b': 200, 'd': 400}
+# for i in dict2.keys():
+#     if i in dict1.keys():
+#         dict1[i] = dict1[i] + dict2[i]
+#     else:
+#         dict1[i] = dict2[i]
+
+# print(dict1)
