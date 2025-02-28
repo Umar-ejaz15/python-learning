@@ -101,3 +101,73 @@
 
 # paillindrome("madam")
 # paillindrome("sir")
+
+# 7. accept list element and reprint it
+# data = []
+
+# n = int(input("Enter the number of elements: "))
+
+# for i in range(n):
+#     element = input("Enter an element: ")
+#     data.append(element)
+
+# print("Original list:", data)
+
+# 8. list in reverse order
+
+# list = [10, 20, 30, 40, 50]
+# for i in range(len(list)-1, -1, -1):
+#     print(list[i], end=" ")
+
+# 9. print positive and negetive element of list in a sperated list
+# list = [10, -21, 4, -45, 66, -93, 1]
+# pos = []
+# neg = []
+# for i in list:
+#     if i > 0:
+#         pos.append(i)
+#     else:
+#         neg.append(i)
+# print(pos)
+# print(neg)
+
+# 10. find greatest elemnt and its index
+# list = [10, 100, 4, 45, 99]
+# print(max(list).__index__)
+
+# max = 0
+# max2 = 0
+# index = 0
+# index2 = 0
+# for i in range(len(list)):
+#     if list[i] > max:
+#         max2 = max
+#         max = list[i]
+#         index2 = index
+#         index = i
+#     elif list[i] > max2:
+#         max2 = list[i]
+#         index2 = i
+
+# print(f"{max} is found at index : {index}")
+# print(f"{max2} is second largest")
+
+# 11. check list is shoorted or not
+# list = [100, 2, 3, 4, 50]
+# is_sorted = True
+# for i in range(len(list)-1):
+#     if list[i] > list[i+1]:
+#         is_sorted = False
+#         break
+# print("List is sorted" if is_sorted else "List is not sorted")
+
+# 12. check list if its paillindrome or not
+# list = [10, 20, 30, 20, 10]
+# rev = []
+# for i in range(len(list)-1, -1, -1):
+#     print(list[i], end=" ")
+#     rev.append(list[i])
+# if rev == list:
+#     print("\nlist is paillindrome")
+# else:
+#     print("\nlist is not paillindrome")
