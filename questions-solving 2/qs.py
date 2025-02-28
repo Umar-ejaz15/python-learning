@@ -1,4 +1,5 @@
-# 1. print string in reverse , its lenght , in upppeer case lower case and copy into another string
+# 1. print string in reverse , its lenght , in upppeer case lower 
+# case and copy into another string
 
 # text = str("hello world")
 # print(text.upper())
@@ -29,6 +30,7 @@
 # print(lower)
 # print(upper)
 # print(lower + upper)
+
 # 3. Arrange string characters such that lowercase letters should come first
 
 # text = "How Are You hOPe You Are Doing WElL"
@@ -51,28 +53,50 @@
 
 
 # 4. count and store  all letter digits and symbols in the givven string
-text = "P@#yn26at^&i5ve"
-letters = 0
-digits = 0
-symbols = 0
-Letters = ""
-Digits = ""
-Symbols = ""
+# text = "P@#yn26at^&i5ve"
+# letters = 0
+# digits = 0
+# symbols = 0
+# Letters = ""
+# Digits = ""
+# Symbols = ""
 
 
-for i in text:
-    # print(i, end="")
-    if i.isalpha():
-        letters += 1
-        Letters = Letters + i
+# for i in text:
+#     # print(i, end="")
+#     if i.isalpha():
+#         letters += 1
+#         Letters = Letters + i
 
-    if i.isdigit():
-        digits += 1
-        Digits = Digits + i
-    if not i.isalpha() and not i.isdigit():
-        symbols += 1
-        Symbols = Symbols + i
+#     if i.isdigit():
+#         digits += 1
+#         Digits = Digits + i
+#     if not i.isalpha() and not i.isdigit():
+#         symbols += 1
+#         Symbols = Symbols + i
 
 
-print(letters, digits, symbols)
-print(Letters, Digits, Symbols)
+# print(letters, digits, symbols)
+# print(Letters, Digits, Symbols)
+
+# 5. count vowvels from given strings and print the count
+# text = "I am a student of BCA"
+# print(text)
+# for i in text:
+#     if i in "aeiouAEIOU":
+#         print(i)
+
+# 6. check string is paillindrome or not
+# def paillindrome(text):
+#     rev = ""
+#     for i in range(len(text)-1, -1, -1):
+#         rev += text[i]
+
+#     if (rev == text):
+#         print(f"{text} is palindrome")
+#     else:
+#         print(f"{text} not palindrome")
+
+
+# paillindrome("madam")
+# paillindrome("sir")
